@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+</head>
+
+<body>
+    <form action="">
+        <h1>Payment Form</h1>
+        <p>Required fields are followed by *</p>
+        <h2>Content Information</h2>
+        <p>Name *<input type="text" name="name" required>
+
+        </p>
+        <fieldset>
+            <!-- fieldset is used to wrap p tag -->
+            <legend>Gender</legend>
+            <p>
+                male<input type="radio" name="gender" id="male">
+                female<input type="radio" name="gender" id="female">
+            </p>
+        </fieldset>
+        <p>
+            Address <textarea name="adress" id="adress" cols="100" rows="7"></textarea>
+        </p>
+        <p>
+            Email *<input type="url" name="email" id="email" required>
+        </p>
+        <p>
+            Pincode *<input type="number" name="pincode" id="pincode" required>
+        </p>
+        <hr>
+        <h2>Payment Information</h2>
+        <p>
+            Cardtype * <select name="card_type" id="card_type" required>
+                <option value="">select a card type</option>
+                <option value="visa">visa</option>
+                <option value="rupay">rupay</option>
+                <option value="mastercard">mastercard</option>
+            </select>
+        </p>
+        <p>Card no *<input type="number" name="card no" id="card no" required></p>
+        <p> Expiration date *<input type="date" name="date" id="date" required></p>
+        <p>
+            CVV *<input type="password" name="cvv" id="cvv" required>
+        </p>
+        <input type="submit" value="pay now">
+        <input type="reset">
+    </form>
+    <hr>
+
+<h1>form1</h1>
+    <form action="">
+        <label for="">name</label>
+        <input type="text" name="name" id="name" placeholder="enter your name">
+        <p>
+            enter your email <input type="url" name="email" id="email">
+        </p>
+        <fieldset>
+            <legend>password</legend>
+        <p>
+            enter your password <input type="password" name="password" id="password">
+        </p>
+        <p>
+            confirm your password <input type="password" name="password" id="new password">
+        </p>
+        <input type="submit" value="confirm">
+    </fieldset>
+        <p>enter your gender</p>
+        <p>
+            male<input type="radio" name="gender" id="male">
+            female <input type="radio" name="gender" id="female">
+        </p>
+        <p>
+            enter your date of birth <input type="date" name="dob" id="dob">
+        </p>
+        <p>
+            enter your address <textarea name="address" id="address" cols="80" rows="7"></textarea>
+        </p>
+        <p> 
+            enter your city 
+            <select name="" id="">
+                <option value="">enter your city</option>
+                <option value="">jaipur</option>
+                <option value="">delhi</option>
+                <option value="">mumbai</option>
+            </select>
+        </p>
+        <input type="submit" name="" id="">
+        
+    </form>
+    <h1>form2</h1>
+
+</body>
+
+</html>

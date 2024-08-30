@@ -1,0 +1,14 @@
+h1{
+    text-align:center;
+    color:  antiquewhite;
+   width: auto;
+    border-bottom: 2px ;
+   border: 2px solid blue;
+    background-color: rgb(143, 140, 138);
+}
+div{
+    color: antiquewhite;
+    height: 20px;
+    width:auto;
+    background-color:black ;
+}
